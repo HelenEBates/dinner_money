@@ -1,0 +1,16 @@
+<div class="flex flex-col">
+  <h1>Dinner Money Organiser</h1>
+  <h2 class="text-midnight text-6xl decoration-red-400 underline underline-offset-2 my-12">Spring Term</h2>
+
+  <div class="rounded-md mb-12">
+    <%= month_calendar attribute: :start_date, events: @dinners do |date, dinners| %>
+      <%= date.day %>
+
+      <% dinners.each do |dinner| %>
+        <div>
+          <%= dinner.title.truncate(15) %>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>
