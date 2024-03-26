@@ -1,0 +1,3 @@
+class Dinner < ApplicationRecord
+
+end
