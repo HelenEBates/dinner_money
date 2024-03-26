@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.simple-calendar {
+    @apply border rounded-lg border-2 border-gray-300 bg-orange-50 p-5;
+
+    .calendar-heading {
+        @apply text-stone-800 text-xl text-center;
+    }
+
+    .day {
+        @apply border border-2 border-gray-300 bg-red-100 min-w-24 p-5;
+    }
+
+    .wday-0 {
+        @apply bg-red-50;
+    }
+    .wday-1 {}
+    .wday-2 {}
+    .wday-3 {}
+    .wday-4 {}
+    .wday-5 {}
+    .wday-6 {
+        @apply bg-red-50;
+    }
+
+    .today {
+        @apply font-semibold;
+    }
+    .past {}
+    .future {}
+
+    .start-date {}
+
+    .prev-month {}
+    .next-month { }
+    .current-month {}
+
+    .has-events {}
+}
