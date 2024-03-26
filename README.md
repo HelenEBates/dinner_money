@@ -34,4 +34,8 @@ Things you may want to cover:
 
 * If you already have postgres you can can create the database with `bin/rails db:create`
 
+* You might need to install tailwind then run `rails tailwindcss:install` to generate the necessary files
+
 * run the server with `rails s`
+
+* Run `rails tailwindcss:build`

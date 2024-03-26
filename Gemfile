@@ -32,6 +32,12 @@ gem "jbuilder"
 # Use monetize for money
 gem 'money-rails', '~> 1.12'
 
+# Use Tailwind CSS [https://github.com/rails/tailwindcss-rails]
+gem "tailwindcss-rails"
+
+# Use simple_calendar to display calendar and manage events
+gem "simple_calendar", "~> 3.0.2"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
